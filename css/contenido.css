@@ -11,3 +11,19 @@ h1
   color:blue;
   font-weight: bold;
 }
+
+label{
+  color:navy;
+  font-weight: bold;
+}
+input{
+  color:red;
+  width: 300px;
+	background-color: yellow;
+}
+select{
+  color:blue;
+  font-weight: bold;
+  background-color: yellow;
+
+}
