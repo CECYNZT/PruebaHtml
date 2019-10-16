@@ -1,5 +1,6 @@
 body{
-  background-color: cyan;
+  background-color: white;
+
 
 }
 h2
@@ -14,16 +15,32 @@ h1
 
 label{
   color:navy;
-  font-weight: bold;
+  font-weight:normal;
+  font-family: cursive;
 }
-input{
+
+input[type=text]{
   color:red;
   width: 300px;
 	background-color: yellow;
 }
+
+input[type=submit]{
+  color:red;
+  width: 100px;
+	background-color: green;
+}
+
+
 select{
   color:blue;
   font-weight: bold;
   background-color: yellow;
+  width: 300px;
+}
 
+form{
+  border: 2px solid red;
+  padding: 20px;
+  border-radius: 10px;
 }
